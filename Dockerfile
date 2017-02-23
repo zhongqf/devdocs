@@ -14,7 +14,7 @@ RUN bundle install --system
 # RUN thor docs:download --all
 
 # only download required documents
-RUN thor docs:download angular angularjs bootstrap c cakephp coffeescript cpp django docker elixir ember git github go immutable knockout kotlin laravel less lodash markdown meteor moment node php phpunit python react react_native redux redis typescript underscore vue webpack sass rust socketio
+RUN thor docs:download css dom dom_events javascript html http angular angularjs bootstrap c cakephp coffeescript cpp django docker elixir ember git github go immutable knockout kotlin laravel less lodash markdown meteor moment node php phpunit python react react_native redux redis typescript underscore vue webpack sass rust socketio
 
 RUN thor docs:generate java --force
 
