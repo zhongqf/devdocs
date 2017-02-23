@@ -19,7 +19,7 @@ module Docs
       /doc-files\//,
       /\Ajava\/applet/,
       /\Ajavax\/swing/,
-      /\Aorg\/org/,      
+      /\Aorg\/omg/,      
       /\Aorg\/ietf/,
       /\Ajavax\/sound/
       ]
