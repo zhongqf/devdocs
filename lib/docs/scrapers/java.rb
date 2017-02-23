@@ -11,22 +11,18 @@ module Docs
 
     html_filters.push 'java/entries', 'java/clean_html'
 
-    options[:only_patterns] = [
-      /\Ajava\/io/,
-      /\Ajava\/lang/,
-      /\Ajava\/math/,
-      /\Ajava\/net/,
-      /\Ajava\/text/,
-      /\Ajava\/time/,
-      /\Ajava\/util/
-    ]
     options[:skip_patterns] = [
       /package-tree.html/,
       /package-use.html/,
       /deprecated-list.html/,
       /class-use\//,
-      /doc-files\//
-    ]
+      /doc-files\//,
+      /\Ajava\/applet/,
+      /\Ajavax\/swing/,
+      /\Aorg\/org/,      
+      /\Aorg\/ietf/,
+      /\Ajavax\/sound/
+      ]
 
     options[:attribution] = <<-HTML
       &copy; 1993&ndash;2016, Oracle and/or its affiliates.
